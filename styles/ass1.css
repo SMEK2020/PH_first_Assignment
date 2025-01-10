@@ -232,4 +232,56 @@ body{
     padding-top: 40px;
    
   }
-  
+  .opiniomatter{
+    margin-right: 160px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+}
+  .opiniontable{
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 14px;
+
+  }
+  table,th,td{
+    border:1px solid gray;
+    border-collapse: collapse;
+  }
+  th{
+    background-color: #c6e4d6;
+  }
+  .tt1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-4{
+    background-color: #c6e4d6;
+    margin: 20px;
+    padding: 5px 20px;
+    border-color: rgb(221, 219, 219);
+  }
+  .tbtn{
+    display: flex;
+  }
+  .newscard1{
+    display: flex;
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+  }
+  .newscard2{
+    display: flex;
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+  }
+  .recentnews{
+    margin-right: 160px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+
+  }
+ 
