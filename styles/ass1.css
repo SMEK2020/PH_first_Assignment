@@ -36,11 +36,13 @@ body{
     margin-left: 160px;
     align-items: center;
     padding-left: 50px;
+    justify-content: space-between;
    
   }
   .banner img{
     width: 300px;
     height:250px ;
+    padding-right: 30px;
     
 
   }
@@ -247,7 +249,11 @@ body{
     padding: 30px;
     margin-top: 20px;
     border-radius: 14px;
+    
 
+  }
+  .opiniontable table{
+    width:100%
   }
   table,th,td{
     border:1px solid gray;
@@ -272,10 +278,13 @@ body{
   }
   .btn-4{
     background-color: #c6e4d6;
-    margin: 10px;;
-    padding: 5px 20px;
+    margin: 15px 0px 15px 60px;
+    padding: 20px;
     border-color: rgb(221, 219, 219);
     border-radius: 5px;
+    border:1px solid black;
+    font-weight: bold;
+    
   }
   .tbtn{
     display: flex;
@@ -287,6 +296,7 @@ body{
     padding: 20px;
     margin-top: 20px;
     height: 185px;
+    
   }
 
   .recentnews{
@@ -320,10 +330,10 @@ body{
     padding-left: 20px;
    display: flex;
    flex-direction: column;
-   gap: 5px;
+   gap: 7px;
   }
-  .newscontent .icon img{
-    height: 20px
+  .newscontent .iccon img{
+    height: 25px
   }
   .btn-secondary-1{
     background-color: #006A50;
@@ -332,7 +342,7 @@ body{
     border-radius: 8px;
     padding: 10px 30px;
     width: 130px;
-    margin-top: 5px;
+    margin-top: 10px;
 
   }
   .donatetoday{
@@ -421,6 +431,11 @@ body{
 }
 .search{
  display: flex;
+}
+.amountform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .inp-email{
   background-color: white;
