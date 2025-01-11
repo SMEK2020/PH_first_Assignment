@@ -415,17 +415,17 @@ body{
     justify-content: space-around;
     gap: 20px;
 }
-.amount h4{
+.amount h2{
   padding: 10px;
 }
 .amount1{
   
-    background-color: white;
-    border-radius: 16px;
-    margin-top:20px;
-    width: 130px;
-    height: 50px;
-    padding: 10px;
+  background-color: white;
+  border-radius: 16px;
+  margin-top:20px;
+  width: 230px;
+  height: 80px;
+  padding: 10px;
    
   
 }
@@ -434,8 +434,8 @@ body{
   background-color: #c6e4d6;
   border-radius: 16px;
   margin-top:20px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 80px;
   padding: 10px;
  
 
@@ -444,17 +444,18 @@ body{
   background-color: #c6e4d6;
   border-radius: 16px;
   margin-top:20px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 80px;
   padding: 10px;
+  text-align: center;
 }
 .amount3:hover{
   
   background-color: #c6e4d6;
   border-radius: 16px;
   margin-top:20px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 80px;
   padding: 10px;
  
 
@@ -463,8 +464,8 @@ body{
   background-color: white;
   border-radius: 16px;
   margin-top:20px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 80px;
   padding: 10px;
 }
 .amount4:hover{
@@ -472,8 +473,8 @@ body{
   background-color: #c6e4d6;
   border-radius: 16px;
   margin-top:20px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 80px;
   padding: 10px;
  
 
@@ -482,8 +483,8 @@ body{
   background-color: white;
   border-radius: 16px;
   margin-top:20px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 80px;
   padding: 10px;
 }
 .otheramount{
@@ -492,8 +493,8 @@ body{
   border: none;
  margin-top: 20px;
   text-align: center;
-  width:660px;
-  height: 40px;
+  width:860px;
+  height: 60px;
   
 }
 .newslatter{
