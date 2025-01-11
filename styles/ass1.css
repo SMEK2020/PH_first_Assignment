@@ -19,13 +19,24 @@ body{
     align-items: center;
   }
   .btn-primary{
-    color: #006A50;
+   
     padding: 15px 30px;
     border-radius: 8px;
-    border-color:#006A50 ;
-    font-size: 12px;
+    
+    font-size: 16px;
     font-weight: 600;
+    border-color:#006A50 ;
+    color:#006A50
+    
   }
+  
+  
+ .btn-primary:hover{
+  background-color:#006A50 ;
+  border:none;
+  color: white;
+  
+ }
   .banner{
     display: flex;
     height: 360px;
@@ -55,7 +66,7 @@ body{
     width: 400px;
   }
   .banner-sub{
-    font-size: 16px;
+    font-size: 26px;
   }
   .btn-secondary{
     background-color: #006A50;
@@ -64,6 +75,18 @@ body{
     border-radius: 8px;
     padding: 10px 30px;
     margin-top: 30px;
+    font-size: 16px;
+  }
+  .btn-secondary:hover{
+   
+    color: #006A50;
+    border:1px solid #006A50;
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: white;
+    
   }
   .banner-content a{
     text-decoration: none;
@@ -176,6 +199,11 @@ body{
     margin-bottom: 20px;
    
   }
+  .btn-1:hover{
+    background-color: white;
+    color: #5490f5;
+    border: 1px solid #5490f5;
+  }
   .btn-2{
     color: white;
     padding: 10px 15px;
@@ -187,6 +215,11 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
    
+  }
+  .btn-2:hover{
+    background-color: white;
+    color: #09a15c;
+    border: 1px solid #09a15c;
   }
   .btn-3{
     color: white;
@@ -200,10 +233,17 @@ body{
     margin-bottom: 20px;
    
   }
+  .btn-3:hover{
+    background-color: white;
+    color: #ffc239;
+    border: 1px solid #ffc239;
+  }
+  
   .vision p{
     font-size: 12px;
     font-weight: 200;
     margin-top: 10px;
+    color: black;
   }
   .vision h4{
     margin-top: 10px;
@@ -278,7 +318,7 @@ body{
   }
   .btn-4{
     background-color: #c6e4d6;
-    margin: 15px 0px 15px 60px;
+    margin: 15px 5px 15px 60px;
     padding: 20px;
     border-color: rgb(221, 219, 219);
     border-radius: 5px;
@@ -313,9 +353,11 @@ body{
   }
   .recentnews p{
     font-size: 12px;
+    color: black;
+    font-weight: 200;
   }
-  .recentnews img {
-    border-radius: 14px;
+  .satimg{
+    border-radius:14px;
   }
   .newscontent .iccon img{
     height: 20px;
@@ -325,12 +367,14 @@ body{
     display: flex;
     gap: 10px;
     font-size: 12px;
+    font-weight: 200;
   }
   .newscontent{
     padding-left: 20px;
    display: flex;
    flex-direction: column;
    gap: 7px;
+   height: 165px;
   }
   .newscontent .iccon img{
     height: 25px
@@ -345,6 +389,16 @@ body{
     margin-top: 10px;
 
   }
+  .btn-secondary-1:hover{
+    background-color: white;
+    color: #006A50;
+    border:1px solid #006A50;
+    border-radius: 8px;
+    padding: 10px 30px;
+    width: 130px;
+    margin-top: 10px;
+
+  }
   .donatetoday{
     margin-right: 160px;
     margin-bottom: 20px;
@@ -353,6 +407,8 @@ body{
   }
 .donatetoday p {
   font-size: 12px;
+  color: black;
+  font-weight: 200;
 }
 .amount{
   display: flex;
@@ -373,6 +429,17 @@ body{
    
   
 }
+.amount1:hover{
+  
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  margin-top:20px;
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+ 
+
+}
 .amount2{
   background-color: #c6e4d6;
   border-radius: 16px;
@@ -381,6 +448,17 @@ body{
   height: 50px;
   padding: 10px;
 }
+.amount3:hover{
+  
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  margin-top:20px;
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+ 
+
+}
 .amount3{
   background-color: white;
   border-radius: 16px;
@@ -388,6 +466,17 @@ body{
   width: 130px;
   height: 50px;
   padding: 10px;
+}
+.amount4:hover{
+  
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  margin-top:20px;
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+ 
+
 }
 .amount4{
   background-color: white;
